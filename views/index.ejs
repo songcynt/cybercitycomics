@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="siteName">Cyber City Comics</h1>
+        <form action="/" method="POST">
+            <input type="text" name="id" id="search" placeholder="Search by comic ID#">
+        </form>
+        <form action="/<%=comicInfo.random%>">
+            <button class="navButton" id="random">Random</button>
+        </form>
+        <form action="/<%=comicInfo.num - 1%>">
+            <button class="navButton" id="previous">Prev</button>
+        </form>
+        <form action="/<%=comicInfo.num + 1%>">
+            <button class="navButton" id="next">Next</button>
+        </form>
+        <hr>
+    </header>
+    <section class="content">
+        <h2 class="align"><%=comicInfo.title%></h2>
+        <p class="comicInfo" id="date">Date: <%=comicInfo.month%> / <%=comicInfo.day%> / <%=comicInfo.year%></p>
+        <p class="comicInfo" id="comicID">ID: <%=comicInfo.num%></p>
+        <p class="comicInfo" id="views">Views: <%=comicInfo.views%></p>
+        <img src="<%=comicInfo.img%>" class="image" alt="<%=comicInfo.alt%>">
+        <h3 class="align">Transcript</h5>
+        <% comicInfo.transcript.forEach(scriptLine => { %>
+            <p class="align"><%=scriptLine%></p>
+          <% }); %>
+    </section>
+</body>
+</html>
