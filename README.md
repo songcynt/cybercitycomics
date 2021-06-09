@@ -1,7 +1,10 @@
 # cybercitycomics
+
+Link to page: https://cybercity2021.herokuapp.com/  
+
 Requirements: 
  completed -> 1) Use the xkcd API  
-2) Has to be hosted on Heroku  
+ completed -> 2) Has to be hosted on Heroku  
  completed -> 3) Display 1 comic strip per page  
  completed -> 4) Buttons to nagivate to the previous and next comic strip  
  completed -> 5) Display the date of when the comic strip was created  
