@@ -1,8 +1,10 @@
 # cybercitycomics
 
-Link to page: https://cybercity2021.herokuapp.com/  
+Link to web page: https://cybercity2021.herokuapp.com/  
 
-Requirements: 
+Link to a short 2min video intro: https://youtu.be/QJX6FcWj5Ac  
+
+Requirements:  
  completed -> 1) Use the xkcd API  
  completed -> 2) Has to be hosted on Heroku  
  completed -> 3) Display 1 comic strip per page  
@@ -18,5 +20,4 @@ Bonus:
 2) Each comic page has a counter that displays the amount of times this specific comic strip has been viewed on your site  
   
 How the page currently looks:  
-
-![image](https://user-images.githubusercontent.com/71906811/121272768-c6be3000-c894-11eb-92b6-5c6f30f9ef56.png)
+![image](https://user-images.githubusercontent.com/71906811/121415332-9f6b6f80-c935-11eb-9ba7-5e72057ebc51.png)
