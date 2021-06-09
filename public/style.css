@@ -49,22 +49,22 @@ body{
 }
 
 #random{
-    left: 820px;
+    right: 300px;
     width: 90px;
 }
 
 #search{
     position: absolute;
     top: 50px;
-    left: 650px;
+    right: 410px;
     height: 22px;
     width: 150px;
 }
 
 #date{
-    left: 600px;
+    right: 830px;
 }
 
 #comicID{
-    left: 830px;
+    right: 620px;
 }
