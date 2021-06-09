@@ -32,7 +32,11 @@ body{
 
 .comicInfo{
     position: absolute;
-    top: 160px;
+    top: 170px;
+}
+
+#comicTitle{
+    font-size: 30px;
 }
 
 #next{
@@ -58,14 +62,9 @@ body{
 }
 
 #date{
-    left: 500px;
+    left: 600px;
 }
 
 #comicID{
-    left: 730px;
-}
-
-#views{
-    left: 900px;
-
+    left: 830px;
 }

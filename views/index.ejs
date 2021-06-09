@@ -25,10 +25,9 @@
         <hr>
     </header>
     <section class="content">
-        <h2 class="align"><%=comicInfo.title%></h2>
+        <h2 class="align" id="comicTitle"><%=comicInfo.title%></h2>
         <p class="comicInfo" id="date">Date: <%=comicInfo.month%> / <%=comicInfo.day%> / <%=comicInfo.year%></p>
         <p class="comicInfo" id="comicID">ID: <%=comicInfo.num%></p>
-        <p class="comicInfo" id="views">Views: <%=comicInfo.views%></p>
         <img src="<%=comicInfo.img%>" class="image" alt="<%=comicInfo.alt%>">
         <h3 class="align">Transcript</h5>
         <% comicInfo.transcript.forEach(scriptLine => { %>
