@@ -1,5 +1,7 @@
 const express = require('express');
 const articleRouter = require('./public/articles');
+
+var PORT = process.env.PORT || 3000;
 // const mongoose = require('mongoose');
 
 // mongoose.connect('mongodb://localhost/comic', {
@@ -17,5 +19,5 @@ app.use('/', articleRouter);
 
 app.use('/public', express.static('public'));
 
-app.listen(3000);
+app.listen(PORT);
   
